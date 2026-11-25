@@ -1,10 +1,10 @@
 # FLOP Testnet Agent Faucet Claim
 
-Script Node.js lokal untuk klaim **10 FLOP Testnet** ke address `5FW3y56ZsuovLnojEdEkDGHxsEu2ptbJGh1QgrejybnxZwfA` via `POST https://faucet.flop.network/v1/testnet/agent-claims`, lalu cek saldo langsung ke `wss://testnet.flop.network/`.
+Script Node.js lokal untuk klaim **10 FLOP Testnet** ke address `5xxx` via `POST https://faucet.flop.network/v1/testnet/agent-claims`, lalu cek saldo langsung ke `wss://testnet.flop.network/`.
 
 Keamanan:
 - Mnemonic Talisman hanya dibaca lewat prompt tersembunyi (tidak disimpan ke file, tidak di-log, dan tidak dikirim ke server mana pun).
-- Script memverifikasi address hasil derivasi (`sr25519`, SS58 `42`) harus persis `5FW3y56ZsuovLnojEdEkDGHxsEu2ptbJGh1QgrejybnxZwfA`. Jika beda, script langsung berhenti.
+- Script memverifikasi address hasil derivasi (`sr25519`, SS58 `42`) harus persis `5xxx`. Jika beda, script langsung berhenti.
 - Script hanya menghubungi `https://faucet.flop.network` dan `wss://testnet.flop.network/`.
 
 ## Cara Pakai di Windows 10 PowerShell
